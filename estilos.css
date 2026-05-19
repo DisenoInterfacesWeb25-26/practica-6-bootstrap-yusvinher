@@ -1,0 +1,96 @@
+/* Fondo general */
+body{
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* HERO / zona superior */
+.fondo-hero{
+    background-color: #e9ecef;
+    padding-bottom: 20px;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #f8f9fa !important;
+}
+
+/* Botones turquesa */
+.btn-primary,
+.btn-teal{
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: white;
+}
+
+.btn-primary:hover,
+.btn-teal:hover{
+    background-color: #138496;
+    border-color: #138496;
+}
+
+/* Buscador */
+.btn-outline-success{
+    border-color:#17a2b8;
+    color:#17a2b8;
+}
+
+.btn-outline-success:hover{
+    background:#17a2b8;
+    color:white;
+}
+
+/* Carrusel */
+.carousel img{
+    max-height:420px;
+    object-fit:cover;
+}
+
+/* Texto debajo del carousel */
+.carousel .container{
+    background-color:#e9ecef;
+    padding:40px;
+    margin-top:0 !important;
+}
+
+/* Título artículos */
+h2{
+    font-size:48px;
+    margin-bottom:30px;
+}
+
+/* Cards */
+.card{
+    border:1px solid #ddd;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+.card img{
+    background:#eef8fb;
+    padding:20px;
+}
+
+/* Footer */
+.footer-teal{
+    background-color:#17a2b8;
+    color:white;
+    font-size:14px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    h2{
+        font-size:34px;
+    }
+
+    .carousel .container{
+        padding:20px;
+    }
+
+}

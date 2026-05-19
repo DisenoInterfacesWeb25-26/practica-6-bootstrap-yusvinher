@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+    <div class="container px-4">
+
+        <a class="navbar-brand" href="https://www.eniun.com/" target="_blank">
+            <img src="https://www.eniun.com/wp-content/uploads/ENIUN@2x.png"
+                 alt="Eniun logo"
+                 width="100">
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link active"
+                       aria-current="page"
+                       href="index.html">
+                       Inicio
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       role="button"
+                       data-bs-toggle="dropdown">
+
+                       Servicios
+                    </a>
+
+                    <ul class="dropdown-menu">
+
+                        <li>
+                            <a class="dropdown-item" href="#">SEO</a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Desarrollo Web
+                            </a>
+                        </li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Marketing Online
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">
+                        Contacto
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="tabla.html">
+                        Tabla
+                    </a>
+                </li>
+
+            </ul>
+
+            <form class="d-flex">
+
+                <input class="form-control me-2"
+                       type="search"
+                       placeholder="Buscar...">
+
+                <button class="btn btn-outline-success"
+                        type="submit">
+                        Buscar
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<!-- BREADCRUMB -->
+
+<nav aria-label="breadcrumb">
+
+    <div class="container">
+
+        <ol class="breadcrumb py-3">
+
+            <li class="breadcrumb-item">
+                <a href="index.html">Inicio</a>
+            </li>
+
+            <li class="breadcrumb-item active">
+                Contacto
+            </li>
+
+        </ol>
+
+    </div>
+
+</nav>
+
+
+<!-- CONTENIDO PRINCIPAL -->
+
+<section id="main">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-12 text-center">
+
+                <h1>Formulario de Contacto</h1>
+
+                <p>
+                    Formulario de contacto para que nos envíes
+                    tus dudas y preguntas.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8 bg-body-secondary rounded p-5 mb-5">
+
+                <form>
+
+                    <div class="mb-3">
+
+                        <label for="nombre" class="form-label">
+                            Nombre
+                        </label>
+
+                        <input type="text"
+                               class="form-control"
+                               id="nombre"
+                               required>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label for="email" class="form-label">
+                            Correo electrónico
+                        </label>
+
+                        <input type="email"
+                               class="form-control"
+                               id="email"
+                               required>
+
+                        <div class="form-text">
+                            Nunca compartiremos tu correo electrónico.
+                        </div>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label for="mensaje" class="form-label">
+                            Consulta
+                        </label>
+
+                        <textarea class="form-control"
+                                  id="mensaje"
+                                  rows="5"
+                                  placeholder="Escribe aquí tu consulta">
+                        </textarea>
+
+                    </div>
+
+                    <div class="mb-4 form-check">
+
+                        <input type="checkbox"
+                               class="form-check-input"
+                               id="condiciones"
+                               required>
+
+                        <label class="form-check-label"
+                               for="condiciones">
+
+                            Acepto las condiciones
+
+                        </label>
+
+                    </div>
+
+                    <button type="submit"
+                            class="btn btn-primary px-4">
+
+                        Enviar
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+        <!-- PAGINACIÓN -->
+
+        <div class="row">
+
+            <div class="col-12">
+
+                <nav aria-label="Paginación">
+
+                    <ul class="pagination justify-content-center">
+
+                        <li class="page-item">
+
+                            <a class="page-link"
+                               href="#">
+
+                                &laquo;
+
+                            </a>
+
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+
+                        <li class="page-item">
+
+                            <a class="page-link"
+                               href="#">
+
+                                &raquo;
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="bg-info text-white py-4">
+
+    <div class="container d-flex justify-content-between">
+
+        <a href="https://www.eniun.com/"
+           class="text-white text-decoration-none">
+
+           Eniun.com
+
+        </a>
+
+        <a href="#"
+           class="text-white text-decoration-none">
+
+           Política de privacidad y cookies
+
+        </a>
+
+    </div>
+
+</footer>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

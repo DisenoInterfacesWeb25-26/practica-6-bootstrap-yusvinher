@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+ 
+<!--contedenor para plicar  el fondo-->
+<div class="fondo-hero m-4">
+<!-- barra navegacion-->
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+    <div class="container">
+        <!--logo-->
+        <a class="navbar-brand" href="#">
+            <img src="https://www.eniun.com/wp-content/uploads/ENIUN@2x.png" alt="Logo ENIUN" width="100">
+        </a>
+
+        <!----este menu para ver movil/*tablet---->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!--Menu desplegable -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">SEO</a></li><li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Desarrollo Web</a></li><li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Marketing online</a></li>
+            </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="tabla.html">Tabla</a></li>
+        </ul>
+        <!--buscador-->
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search"/>
+            <button class="btn btn-teal" type="submit">Buscar</button>
+        </form>
+        </div>
+    </div>
+</nav>
+
+<!--CARROUSEL-->
+ <!---->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="https://www.eniun.com/wp-content/uploads/ENIUNCreatividadSeo.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="https://www.eniun.com/wp-content/uploads/ENIUNCreatividadDiseno.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="https://www.eniun.com/wp-content/uploads/ENIUNCreatividadSocialNetwork.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    <!--controles del carousel-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    <!--texto del carousel-->
+       <div class="container py-5">
+            <h1>Hello, World!</h1>
+            <p class="lead">  This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr>
+            <p>It uses utility classes for typography and spacing to suit the larger container.</p>
+            <a href="#" class="btn btn-primary btn-lg">Learn more</a>
+        </div> 
+    </div>
+</div>  
+<br><br>
+
+<!--tarjetas de abajo, imagenes-->
+<div class="container mb-4">
+    <h2 class="text-center">Artículos</h2><br>
+ <div class="row">
+    <div class="col-lg-4 col-md-6 mb-3 "> 
+        <div class="card h-100" >
+            <img src="images/articulo1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+        </div>
+    </div>
+        <div class="col-lg-4 col-md-6 mb-3 ">
+        <div class="card h-100" >
+            <img src="images/articulo2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+     <div class="col-lg-4 col-md-6 mb-3 ">
+        <div class="card h-100">
+            <img src="images/articulo3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>      
+ </div> 
+</div>
+
+ 
+<!-- FOOTER --> 
+<footer class="footer-teal m-4 p-4"> 
+    <div>
+        <div class="row justify-content-between"> 
+            <div class="col-6 text-start">Eniun.com</div> 
+            <div class="col-6 text-end">Política de privacidad y cookies</div> 
+        </div> 
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

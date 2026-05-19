@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+        <a class="navbar-brand" href="https://www.eniun.com/" target="_blank">
+            <img src="https://www.eniun.com/wp-content/uploads/ENIUN@2x.png"
+                 alt="Logo Eniun" width="100">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                       data-bs-toggle="dropdown">Servicios</a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">SEO</a></li>
+                        <li><a class="dropdown-item" href="#">Desarrollo Web</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Marketing Online</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="tabla.html">Tabla</a>
+                </li>
+
+            </ul>
+
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar...">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+
+        </div>
+    </div>
+</nav>
+
+<!-- BREADCRUMB -->
+<nav aria-label="breadcrumb">
+    <div class="container">
+        <ol class="breadcrumb py-3">
+            <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+            <li class="breadcrumb-item active">Tabla</li>
+        </ol>
+    </div>
+</nav>
+
+<!-- CONTENIDO PRINCIPAL -->
+<main class="container mb-5 flex-grow-1">
+
+    <div class="text-center mb-4">
+        <h1>Tabla Bootstrap</h1>
+        <p>Ejemplo de tabla con bordes, filas alternas, encabezado oscuro y diseño responsive.</p>
+    </div>
+
+    <!-- TABLA RESPONSIVE -->
+    <div class="d-flex justify-content-center">
+        <div class="table-responsive w-75">
+
+            <table class="table table-bordered table-striped text-center">
+
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>@social</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-info text-white py-4 mt-auto">
+    <div class="container d-flex justify-content-between">
+        <a href="https://www.eniun.com/" class="text-white text-decoration-none">Eniun.com</a>
+        <a href="#" class="text-white text-decoration-none">Política de privacidad y cookies</a>
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+div {
+	min-height: 100px;
+}
+
+.azul {
+	background-color: #bac2d8;
+	border: 1px solid #4d72d1;
+}
+
+.azul-oscuro {
+	background-color: #1c3fa1;
+	border: 1px solid #4d72d1;
+}
+
+.rojo {
+	background-color: #d68f8f;
+	border: 1px solid #da4444;
+}
+
+.verde {
+	background-color: #95d68f;
+	border: 1px solid #44da79;
+}
+
+.verde-oscuro {
+	height: 500px;
+	background-color: #3c9b0f;
+	border: 1px solid #1bba2b;
+}
+
+.amarillo {
+	background-color: #d6d58f;
+	border: 1px solid #bab21b;
+}
+
+/* Media queries para controlar el alto de las columnas */
+@media screen and (width >= 992px) {
+	.rojo {
+		height: 200px;
+	}
+
+	.verde {
+		height: 200px;
+	}
+}
